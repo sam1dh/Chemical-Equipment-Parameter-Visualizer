@@ -11,7 +11,7 @@ SECRET_KEY = 'django-insecure-your-secret-key-here-change-in-production'
 
 DEBUG = True
 
-ALLOWED_HOSTS = ['*']
+ALLOWED_HOSTS = ['*','https://chemical-equipment-parameter-visualizer-mggr.onrender.com/api/']
 
 INSTALLED_APPS = [
     'django.contrib.admin',
