@@ -9,7 +9,7 @@ import { Bar, Pie, Line } from 'react-chartjs-2';
 // Register ChartJS components
 ChartJS.register(CategoryScale, LinearScale, PointElement, LineElement, BarElement, ArcElement, Title, Tooltip, Legend);
 
-const API_BASE_URL = 'https://chemical-equipment-parameter-visualizer-mggr.onrender.com/api/';
+const API_BASE_URL = 'http://localhost:8000/api';
 
 function App() {
   const [sidebarOpen, setSidebarOpen] = useState(true);
